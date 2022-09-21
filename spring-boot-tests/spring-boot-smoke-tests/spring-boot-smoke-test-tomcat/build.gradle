@@ -11,4 +11,17 @@ dependencies {
 	implementation("org.springframework:spring-webmvc")
 
 	testImplementation(project(":spring-boot-project:spring-boot-starters:spring-boot-starter-test"))
+
+
+
+	// 嵌入式Tomcat的依赖
+//	// https://mvnrepository.com/artifact/org.springframework/spring-webmvc
+//	implementation group: 'org.springframework', name: 'spring-webmvc', version: '5.3.18'
+//	// https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-core
+//	implementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-core', version: '8.5.64'
+//	// https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper
+//	implementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '8.5.64'
+
+
+
 }
